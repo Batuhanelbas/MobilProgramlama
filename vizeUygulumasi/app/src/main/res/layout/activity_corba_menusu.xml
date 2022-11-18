@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".corbaMenusu">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="86dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/b" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="98dp"
+        android:text="Çorba"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="154dp"
+        android:layout_height="488dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="45dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Ezogelin"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Düğün"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Mercimek"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Brokoli"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Kelle-Paça"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Yayla"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Şehriye"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Dometes"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Tarhana"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Mantar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="İşkembe"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Tavuk"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="125dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="369dp"
+        android:background="@color/black"
+        android:text="Devam"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
